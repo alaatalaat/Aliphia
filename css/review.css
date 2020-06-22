@@ -1,0 +1,111 @@
+body{height:auto;overflow-x:hidden;}
+*{margin:0px;padding:0px;box-sizing:border-box;}
+/* Start Experience the fredoom of cloud*/
+.experience .row div:first-of-type div p:first-of-type{font-size:30px;color:#333;}
+.experience .row div:first-of-type div p:nth-of-type(2){font-size:18px;color:#333;width:70%;color:#585858;}
+.experience .row div:first-of-type div button{background:#053a76;color:#fff;border:none;float:right;}
+.experience .row div:first-of-type div span a{color:#053a76;font-weight:500;text-decoration:none;cursor:auto;font-size:14px;}
+.experience .row div:first-of-type div span {font-size:14px;color:#333;}
+.experience .row div:first-of-type div i{color:#ffb553}
+.img img{width:70px;height:70px;margin-left:0px;filter:grayscale(100%);}	
+.flags button:first-child{position:absolute;top:20%;right:0%}
+.flags button:nth-child(2){position:absolute;top:30%;right:0%}
+.flags button:nth-child(3){position:absolute;top:40%;right:0%}
+.images-group #carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+.images-group #carousel:hover{
+	animation-play-state: paused;
+}
+ .images-group #carousel figure img{width:100%;}
+ .images-group #carousel figure{
+	display: block;
+	position: absolute;
+	width: 186px;
+	height: 116px;
+	left: 150px;
+	top: 30%;
+	background: black;
+	overflow: hidden;
+	border: solid 2px black;
+}
+.images-group #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+.images-group #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+.images-group img{
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.images-group img:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+/*End Experience the fredoom of cloud*/
+/*Start The Software as a Service meant for Freelancers, Small & Medium Business owners*/
+.Service{background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4hdlFNROOs6L92Vp6466v0Ojgcb-gSlqYJCJ2phQjvKj7Peon&usqp=CAU');background-repeat:no-repeat;background-size:cover;}
+.Service>div:first-of-type{font-size:20px;font-weight:500;}
+.Service>div:nth-child(2) .card{border-radius:0px;}
+.Service>div:nth-child(2) .card-body h5{color:#053a76;}
+/*End The Software as a Service meant for Freelancers, Small & Medium Business owners*/
+/*Start The opinions of our customers*/
+.opinions .card{border:none;}
+/*End The opinions of our customers*/
+/*Start Create Invoices that absolutely looks like your Business*/
+.Create{border:2px solid #f9f9f9;}
+.Create p:first-of-type{font-size:20px;font-weight:bold;}
+.business p:first-of-type{font-size:20px;font-weight:bold;}
+/*End Create Invoices that absolutely looks like your Business*/
+/*Start Growth-Hacking tools to easy skyrocket your business profits*/
+.Growth p:first-of-type{font-size:25px}
+/*End Growth-Hacking tools to easy skyrocket your business profits*/
+/*Start tools*/
+.tools .row div:first-of-type .card:first-of-type div:first-of-type{border:2px solid teal;border-radius:50%;width:80px;height:80px;z-index:2;}
+.tools .row div:first-of-type .card:first-of-type div:first-of-type i{font-size:45px;color:teal}
+
+.tools .row div:nth-of-type(2) .card div:first-of-type{border:2px solid #ffb553;border-radius:50%;width:80px;height:80px}
+.tools .row div:nth-of-type(2) .card div:first-of-type i{font-size:45px;color:#ffb553}
+
+.tools .row div:nth-of-type(3) .card div:first-of-type{border:2px solid #053a76;border-radius:50%;width:80px;height:80px}
+.tools .row div:nth-of-type(3) .card div:first-of-type i{font-size:45px;color:#053a76}
+.tools .row div:nth-of-type(4) .card div:first-of-type{border:2px solid #2d91ea;border-radius:50%;width:80px;height:80px}
+.tools .row div:nth-of-type(4) .card div:first-of-type i{font-size:45px;color:#2d91ea}
+.tools .card{border-radius:0px;height: 100%}
+/*.tools .row div .card{background:#eee;}
+/*Start Thousands of business use Aliphia each day*/
+.Thousands div:first-child{font-size:30px;font-weight:500;}
+.Thousands div:nth-child(2){border-width:2px;border-bottom-color:#053a76;border-bottom-style:solid;border-top-style:solid;border-right-style:solid;border-left-style:solid;}
+.Thousands div:nth-child(3){margin-top:100px;}
+.Thousands div:nth-child(3) p{font-size:20px;}
+.Thousands div:nth-child(3) p a{text-decoration:underline;color:#053a76;font-size:32px;}
+/*End  Thousands of business use Aliphia each day*/
+/*Start Header*/
+.Header{background:#13284c}
+.Header div div ul li{font-size:14px;list-style-type:none;}
+.Header div div ul li a{color:#C4CCDE;}
+.Header .row div:nth-child(4) div i{font-size:22px;margin-left:10px;color:#C4CCDE}
+.Header .row div:nth-child(4) ul{margin-top:20px}
+.Header .row div:nth-child(4) ul li{color:#C4CCDE;font-size:12px;}
+.nav-link {display: block;padding: .5rem 5px;color:#C4CCDE;}
+.nav-link:hover{color:#C4CCDE;}
+.copyright p:first-of-type{color:#C4CCDE;margin-bottom:0px;}
+/*End Header*/
